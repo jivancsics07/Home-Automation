@@ -154,9 +154,6 @@ blueprint:
               multiple: true
               filter:
                 domain: sensor
-                device_class:
-                  - duration
-                  - timestamp
         notify_devices:
           name: 💬 Notify devices
           description: |-
